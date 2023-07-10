@@ -36,7 +36,7 @@ We tested 3 models:
 - KMeans with Word2Vec
 - KMeans with Self Organzing Maps
 
-![wordcloud](/Images_Plots/top_words1.png)
+![wordcloud](/Images_Plots/top_words1.png)                ![word2](Images_Plots/Top_prod3_words.png) 
 
 # Conclusion, Recommendation and Future Steps
 
