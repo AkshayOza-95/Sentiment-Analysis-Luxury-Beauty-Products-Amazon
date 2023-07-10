@@ -15,20 +15,21 @@ Data Credit : Jianmo Ni, J. L. (2019). Justifying recommendations using distantl
 
 reviews.json
 
-reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B
-asin - ID of the product, e.g. 0000013714
-reviewerName - name of the reviewer
-vote - helpful votes of the review
-style - a dictionary of the product metadata, e.g., "Format" is "Hardcover"
-reviewText - text of the review
-overall - rating of the product
-summary - summary of the review
+- reviewerID - ID of the reviewer, e.g. A2SUAM1J3GNN3B
+- asin - ID of the product, e.g. 0000013714
+- reviewerName - name of the reviewer
+- vote - helpful votes of the review
+- style - a dictionary of the product metadata, e.g., "Format" is "Hardcover"
+- reviewText - text of the review
+- overall - rating of the product
+- summary - summary of the review
+
 meta_data.json
 
-asin - ID of the product, e.g. 0000031852
-title - name of the product
-description - description of the product
-price - price in US dollars (at time of crawl)
+- asin - ID of the product, e.g. 0000031852
+- title - name of the product
+- description - description of the product
+- price - price in US dollars (at time of crawl)
 
 # Models 
 We tested 3 models:
