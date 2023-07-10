@@ -32,23 +32,23 @@ price - price in US dollars (at time of crawl)
 
 # Models 
 We tested 3 models:
--VADER
--KMeans with Word2Vec
--KMeans with Self Organzing Maps
+- VADER
+- KMeans with Word2Vec
+- KMeans with Self Organzing Maps
 
 # Conclusion, Recommendation and Future Steps
 
 ## Business Recommendation
--From our analysis we found that there is an exponentital relation between the price and number of reviews. More the reviews can also be correlated with the popularity of the product
+- From our analysis we found that there is an exponentital relation between the price and number of reviews. More the reviews can also be correlated with the popularity of the product
 
--For Luxury Brands to make their ranking on amazon and get more positive sentiments they need to create strong descriptions as well as use the sentiments from these products for price optimization
+- For Luxury Brands to make their ranking on amazon and get more positive sentiments they need to create strong descriptions as well as use the sentiments from these products for price optimization
 
--For market researchers, different unsupervised sentiment analysis techniques can go a long way rather than just abiding by the rule based or corpus based approach.
+- For market researchers, different unsupervised sentiment analysis techniques can go a long way rather than just abiding by the rule based or corpus based approach.
 
 ## Data Science Recommendations
--If the decision makers care about recall and F-1 Score, VADER is a good model. If they care about Precision alone, they can use K-Means with Word2Vec
+- If the decision makers care about recall and F-1 Score, VADER is a good model. If they care about Precision alone, they can use K-Means with Word2Vec
 
--The models we used are not very optimized. Especially SOM which requires more data as well as computationally faster infrastructure. We can fine-tune them to create as good results as VADER.
+- The models we used are not very optimized. Especially SOM which requires more data as well as computationally faster infrastructure. We can fine-tune them to create as good results as VADER.
 
--More expertise from Beauty Product experts can help us decide more ways to prepare the text and remove/modify tokens accordingly
+- More expertise from Beauty Product experts can help us decide more ways to prepare the text and remove/modify tokens accordingly
 
